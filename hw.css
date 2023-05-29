@@ -1,0 +1,346 @@
+a{
+	text-decoration: none;
+	color: whitesmoke;
+}
+
+#accedi{
+	background-color: blueviolet;
+}
+
+.a{
+	width: 43%;
+}
+.b {
+	width: 10%;
+}
+.c{
+	width: 23%;
+}
+.d{
+	width: 10%;
+}
+.e{
+	width:14%
+}
+#faraone{
+	position: fixed;
+	width: 16%;
+	margin-left:70%;
+	margin-top:54vh;
+	
+}
+
+div .blocco{
+	display: flex;
+	width: 21%;
+	flex-direction: column;
+	font-size: 15px;
+	margin-bottom: 10px;
+}
+
+button{
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 100%;
+    color: whitesmoke;
+	border: 1px solid whitesmoke;
+    border-radius: 50px;
+    padding: 5px 15px;
+	background-color: rgba(0, 0, 0, 0.1);
+	
+}
+button:hover{
+	background-color: whitesmoke;
+	color: black;
+}
+#accedi:hover{
+	background-color: whitesmoke;
+	color: blueviolet;	
+}
+
+#scritta{
+	width:50%;
+	color: white;
+	font-size: 22px;
+	font-weight: bold;
+	margin-left: 23.5%;
+	margin-top:-17%;
+	text-justify:distribute;
+	font-family:Candara ;
+}
+form {
+	display:block;
+	margin-top: 15px;
+	margin-right: 10PX;
+	font-size: 20px;
+	font-weight: bold;
+}
+#yu{
+	justify-content: space-between;
+	display: flex;
+	margin-bottom: 0px;
+	background-color: purple;
+	border-bottom: 1px solid whitesmoke;
+	border-top: 1px solid whitesmoke;
+	height: 7%;
+}
+h1 img{
+	align-content: center;
+	margin: 0 20px;
+}
+
+
+
+body {
+	margin: 0;
+  	font-family: Helvetica, sans-serif;
+  	background-color: rgba(0,0,0,0.9);
+  	color: whitesmoke;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    height: 10%;
+    background-color: black;
+    height: 3vh;
+    color: white;
+    padding: 10px;
+	width: 145%;
+}
+
+header{
+	display: flex;
+	width: 100%;
+    background-image: url('assets/yugi.jpg');
+    background-position: top;
+    height: 100%;
+    color:whitesmoke;
+	background-size: cover;
+	border-radius: 10px;
+}
+
+
+label{
+	font-weight: bold;
+	font-size: 22px;
+	text-align: center;
+}
+
+main{
+	flex-direction: row;
+	justify-content:space-between;
+ 	padding:20px;
+ 	margin: 20px 0;
+	width: 66%;
+	margin-left: auto;
+	margin-right: auto;
+	font-size: 18px;
+	align-items: stretch;
+	flex-wrap: nowrap;
+	text-align: center;
+}
+
+main p {
+	display:flex;
+	flex-direction: column;
+
+}
+
+.ff  {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	font-size: 12px;
+}
+
+nav{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 9%;
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#separator{
+    display: inline-block;
+    height: 16px;
+    width: 1px;
+    background: currentColor;
+  }
+
+#overlay {
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.2);
+    width: 100%;
+    height: 100%;
+	
+}
+
+.hidden{
+	display: none;
+}
+
+.h1{
+	font-weight: bolder;
+	font-size: 24px;
+	color: white;
+}
+
+
+div img:hover{
+	cursor: pointer;
+}
+
+p{
+	display: flex;
+}
+
+p div{
+	display: flex;
+	border: 2px solid white;
+	height: 70px;
+	text-align:center;
+	justify-content: center;
+}
+
+.DualSafe-confirm-iframe
+{
+	display:none !important;
+}
+.DualSafe-confirm-iframe.active
+{
+	opacity:none;
+}
+
+p .righe{
+	display:flex;
+	flex-direction: row;
+
+}
+
+p button {
+	display: block;
+	height: 30px;
+	margin-left: auto;
+	margin-right: auto;
+
+}
+p div {
+	align-items: center;
+}
+
+p img{
+	display: block;
+	width:30%;
+	color: darkgoldenrod;
+}
+.flex{
+	display: flex;
+	text-align: center;
+}
+
+
+#view {
+	
+	z-index: -1;
+	display: flex;
+  	padding:20px;
+  	margin: 20px 0;
+	width: 66%;
+	margin-left: auto;
+	margin-right: auto;
+	font-size: 20px;
+	font-weight: bold;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+#view div{
+  display: flex;
+  flex-wrap: wrap;
+}
+#view .album {
+	margin: 10px 0px;
+	border: 1px solid slategray;
+	max-width: 100%;  
+	max-height: 100%; 
+	display: flex;
+	flex-direction:column;
+	cursor: pointer;
+	flex-wrap: wrap;
+  }
+
+#view .eroe{
+	margin-left: auto;
+	margin-right: auto;
+	width: 80%;
+	text-align: justify;
+	margin-top:20px;
+}
+
+#view img {
+	display: flex;
+	margin-left: auto;
+	margin-right: auto;
+	justify-content: center ;
+	align-items: center
+	;
+}
+
+
+#modale.hidden {
+	display: none; 
+}
+
+#modale {
+	position: fixed;
+	top: -20;
+	left: 0;
+	height: 105%;
+	width: 100%;
+	background-color: rgba(0, 0, 0, 0.9);
+	z-index: 2;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center; 
+}
+
+#modale img {
+	height: 80%;
+	border: 1px solid black;
+}
+
+.no-scroll {
+	overflow: hidden;
+}
+
+#footer{
+    width: 100vw;
+    max-width: 1263.330px;
+	border-top: 1px solid rgb(177, 176, 176);
+	text-align: center;
+	padding-top: 30px;
+	line-height: 1.6em;
+	font-size: 1em;
+	background-color: black;
+	color: #fff;
+}
+
+
+#footer .credits {
+	max-width:400px;
+	margin:auto;
+}
+
+
+.logoUniCT{
+    display: flex;
+    background-image: url("assets/UniCT-Logo.png");
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    height: 197px;
+}
